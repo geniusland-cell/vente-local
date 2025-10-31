@@ -279,10 +279,33 @@ body {
   background: var(--light);
 }
 
+/* ===== GRILLE RESPONSIVE CORRIGÉE ===== */
+/* Mobile par défaut (2 colonnes) */
 .products-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--spacing-md);
+}
+
+/* Tablette (3 colonnes) */
+@media (min-width: 768px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Desktop (4 colonnes) */
+@media (min-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Très petit mobile (1 colonne) */
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ===== CARTE PRODUIT ===== */
@@ -780,19 +803,8 @@ body {
   font-weight: 600;
 }
 
-/* ===== RESPONSIVE ===== */
-@media (min-width: 768px) {
-  .products-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .products-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
+/* ===== RESPONSIVE CORRIGÉ ===== */
+/* Navigation mobile */
 @media (max-width: 767px) {
   .nav {
     display: none;
@@ -826,10 +838,6 @@ body {
     margin: 0 auto;
   }
 
-  .products-grid {
-    grid-template-columns: 1fr;
-  }
-
   .modal-body {
     grid-template-columns: 1fr;
     padding: 1rem;
@@ -844,32 +852,16 @@ body {
   }
 }
 
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.product-card {
-  animation: fadeIn 0.6s ease-out;
-}
-
 /* ===== LOGO GLF OVALE ===== */
 .glf-logo {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: rgba(212, 175, 55, 0.85); /* Or semi-transparent */
+  background: rgba(212, 175, 55, 0.85);
   color: var(--royal-blue);
   width: 60px;
   height: 40px;
-  border-radius: 50% / 60%; /* Forme ovale */
+  border-radius: 50% / 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -925,4 +917,20 @@ body {
     width: 45px;
     height: 45px;
   }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card {
+  animation: fadeIn 0.6s ease-out;
 }
