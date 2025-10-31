@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe London - Draps 100% Coton</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>🇬🇧 Luxe London</h1>
+          <span>Draps 100% Coton Supérieur</span>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+            <li><a href="#produits" class="nav-link">Nos Draps</a></li>
+            <li><a href="#apropos" class="nav-link">Notre Histoire</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-mobile">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <h2>Draps 100% Coton <span>Origine Londres</span></h2>
+        <p>
+          Découvrez notre collection exclusive de draps d'une douceur
+          exceptionnelle
+        </p>
+        <a href="#produits" class="btn-primary">Voir la collection</a>
+      </div>
+      <div class="hero-pattern"></div>
+    </section>
+
+    <!-- Catégories -->
+    <section class="categories">
+      <div class="container">
+        <h2 class="section-title">Nos Collections</h2>
+        <div class="categories-grid">
+          <div class="category-card" data-category="royal">
+            <i class="fas fa-crown"></i>
+            <h3>Collection Royale</h3>
+            <p>Élégance et raffinement</p>
+          </div>
+          <div class="category-card" data-category="classique">
+            <i class="fas fa-bed"></i>
+            <h3>Classique Londonien</h3>
+            <p>Tradition et confort</p>
+          </div>
+          <div class="category-card" data-category="moderne">
+            <i class="fas fa-star"></i>
+            <h3>Moderne Luxe</h3>
+            <p>Design contemporain</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Produits -->
+    <section id="produits" class="products">
+      <div class="container">
+        <h2 class="section-title">Nos Draps</h2>
+
+        <!-- Filtres -->
+        <div class="filters">
+          <div class="filter-group">
+            <label for="category-filter">Collection:</label>
+            <select id="category-filter">
+              <option value="all">Toutes</option>
+              <option value="royal">Royale</option>
+              <option value="classique">Classique</option>
+              <option value="moderne">Moderne</option>
+            </select>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Rechercher un modèle..."
+            />
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+
+        <!-- Grille produits -->
+        <div class="products-grid" id="products-grid">
+          <!-- Produits chargés par JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- À Propos AVEC PHOTO -->
+    <section id="apropos" class="about">
+      <div class="container">
+        <div class="about-content">
+          <!-- Photo à gauche -->
+          <div class="about-photo">
+            <div class="photo-frame">
+              <img
+                src="images/photo-proprietaire.jpg"
+                alt="Propriétaire Luxe London"
+              />
+              <div class="photo-overlay">
+                <h3>Votre Partenaire</h3>
+                <p>Expert en draps de qualité</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Texte à droite -->
+          <div class="about-text">
+            <h2>Notre Engagement Qualité</h2>
+            <p>
+              Passionné par l'excellence, je sélectionne personnellement chaque
+              lot de draps 100% coton supérieur directement de Londres pour vous
+              offrir le meilleur confort.
+            </p>
+
+            <div class="features">
+              <div class="feature">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h4>Douceur Exceptionnelle</h4>
+                <p>Toucher peau de pêche</p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-certificate"></i>
+                <h4>100% Coton Supérieur</h4>
+                <p>Qualité Londres</p>
+              </div>
+              <div class="feature">
+                <i class="fas fa-gift"></i>
+                <h4>Pack 3 Pièces</h4>
+                <p>1 drap + 2 taies</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Logo GLF Ovale -->
+    <div class="glf-logo" title="GLF Marque Déposée">GLF</div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Luxe London</h3>
+            <p>Draps 100% coton de qualité supérieure</p>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p><i class="fab fa-whatsapp"></i> +242 06 767 8128</p>
+            <p><i class="fas fa-truck"></i> Livraison Brazzaville</p>
+            <p>🛏️ Pack 3 pièces complet</p>
+          </div>
+          <div class="footer-section">
+            <h4>Garanties</h4>
+            <p>✓ 100% Coton Supérieur</p>
+            <p>✓ Douceur Exceptionnelle</p>
+            <p>✓ Origine Londres</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Luxe London. Douceur et Élégance.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
