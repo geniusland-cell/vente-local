@@ -1,520 +1,519 @@
-// ===== DONNÉES DES DRAPS AVEC GALERIE D'IMAGES =====
+// ===== DONNÉES DES COFFRETS LA ROSE =====
 const produits = [
+  // ===== 19 COFFRETS 4 PIÈCES À 15.000 FCFA =====
   {
     id: 1,
-    nom: "Collection Royale Buckingham",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Élégance",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Pack 3 pièces en 100% coton supérieur. Douceur exceptionnelle pour des nuits de rêve. Origine Londres.",
+      "Coffret prestige La Rose - 4 pièces : 2 draps + 2 taies d'oreiller en 100% coton supérieur de Londres.",
     images: [
-      "images/produits/royal-buckingham-1.jpg",
-      "images/produits/royal-buckingham-2.jpg",
-      "images/produits/royal-buckingham-3.jpg",
-      "images/produits/royal-buckingham-4.jpg",
-      "images/produits/royal-buckingham-5.jpg",
+      "images/produits/photo-coffret1.jpg",
+      "images/produits/photo-coffret1.jpg",
+      "images/produits/photo-coffret1.jpg",
+      "images/produits/photo-coffret1.jpg",
+      "images/produits/photo-coffret1.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur qualité Londres",
-      "Pack 3 pièces : 1 drap + 2 taies d'oreiller",
+      "Marque : La Rose - Qualité Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur qualité exceptionnelle",
       "Douceur peau de pêche incomparable",
+    ],
+    enStock: true,
+    badge: "4 Pièces",
+  },
+  {
+    id: 2,
+    nom: "La Rose - Coffret 4 Pièces Prestige",
+    categorie: "4pieces",
+    prix: 15000,
+    description:
+      "Coffret La Rose prestige - 4 pièces en 100% coton supérieur pour un confort optimal.",
+    images: [
+      "images/produits/photo-coffret2.jpg",
+      "images/produits/photo-coffret2.jpg",
+      "images/produits/photo-coffret2.jpg",
+      "images/produits/photo-coffret2.jpg",
+      "images/produits/photo-coffret2.jpg",
+    ],
+    caracteristiques: [
+      "Marque : La Rose - Origine Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur de qualité",
       "Tissu respirant et hypoallergénique",
       "Lavable en machine - couleurs résistantes",
     ],
     enStock: true,
-    badge: "Royal",
-  },
-  {
-    id: 2,
-    nom: "Luxe Westminster",
-    categorie: "royal",
-    prix: 15000,
-    description:
-      "Élégance britannique alliée à une douceur suprême. Coton 100% de première qualité.",
-    images: [
-      "images/produits/luxe-westminster-1.jpg",
-      "images/produits/luxe-westminster-2.jpg",
-      "images/produits/luxe-westminster-3.jpg",
-      "images/produits/luxe-westminster-4.jpg",
-      "images/produits/luxe-westminster-5.jpg",
-    ],
-    caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur exceptionnelle au toucher",
-      "Origine Londres garantie",
-      "Confort optimal pour le sommeil",
-    ],
-    enStock: true,
-    badge: "Luxe",
+    badge: "4 Pièces",
   },
   {
     id: 3,
-    nom: "Classique Kensington",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Royal",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Tradition et confort dans ce pack 3 pièces d'une douceur remarquable. 100% coton.",
+      "Coffret royal La Rose - 4 pièces en coton 100% supérieur, élégance et confort.",
     images: [
-      "images/produits/classique-kensington-1.jpg",
-      "images/produits/classique-kensington-2.jpg",
-      "images/produits/classique-kensington-3.jpg",
-      "images/produits/classique-kensington-4.jpg",
-      "images/produits/classique-kensington-5.jpg",
+      "images/produits/photo-coffret3.jpg",
+      "images/produits/photo-coffret3.jpg",
+      "images/produits/photo-coffret3.jpg",
+      "images/produits/photo-coffret3.jpg",
+      "images/produits/photo-coffret3.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité supérieure",
-      "Pack 3 pièces : drap + 2 taies",
-      "Douceur incomparable",
-      "Tissu résistant et durable",
-      "Lavage facile - douceur préservée",
+      "Marque : La Rose - Londres authentique",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur qualité premium",
+      "Douceur exceptionnelle garantie",
     ],
     enStock: true,
-    badge: "Classique",
+    badge: "4 Pièces",
   },
   {
     id: 4,
-    nom: "Modern Mayfair",
-    categorie: "moderne",
+    nom: "La Rose - Coffret 4 Pièces Luxe",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Design contemporain et douceur extrême. Pack 3 pièces en coton 100% de Londres.",
+      "Coffret luxe La Rose - 4 pièces en 100% coton supérieur, qualité londonienne.",
     images: [
-      "images/produits/modern-mayfair-1.jpg",
-      "images/produits/modern-mayfair-2.jpg",
-      "images/produits/modern-mayfair-3.jpg",
-      "images/produits/modern-mayfair-4.jpg",
-      "images/produits/modern-mayfair-5.jpg",
+      "images/produits/photo-coffret4.jpg",
+      "images/produits/photo-coffret4.jpg",
+      "images/produits/photo-coffret4.jpg",
+      "images/produits/photo-coffret4.jpg",
+      "images/produits/photo-coffret4.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur peau de pêche",
-      "Style moderne et élégant",
-      "Qualité Londres authentique",
+      "Marque : La Rose - Excellence Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur de première qualité",
+      "Confort optimal pour le sommeil",
+      "Lavage facile - douceur préservée",
     ],
     enStock: true,
-    badge: "Moderne",
   },
   {
     id: 5,
-    nom: "Élégance Britannique",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Classique",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Raffinement et douceur dans ce pack 3 pièces 100% coton de qualité supérieure.",
+      "Coffret classique La Rose - 4 pièces en coton 100% supérieur, tradition et qualité.",
     images: [
-      "images/produits/elegance-britannique-1.jpg",
-      "images/produits/elegance-britannique-2.jpg",
-      "images/produits/elegance-britannique-3.jpg",
-      "images/produits/elegance-britannique-4.jpg",
-      "images/produits/elegance-britannique-5.jpg",
+      "images/produits/photo-coffret5.jpg",
+      "images/produits/photo-coffret5.jpg",
+      "images/produits/photo-coffret5.jpg",
+      "images/produits/photo-coffret5.jpg",
+      "images/produits/photo-coffret5.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité Londres",
-      "Pack 3 pièces : 1 drap + 2 taies",
-      "Douceur exceptionnelle",
-      "Confort de sommeil optimal",
-      "Lavable - repassage facile",
+      "Marque : La Rose - Qualité Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur respirant",
+      "Toucher peau de pêche incomparable",
     ],
     enStock: true,
   },
   {
     id: 6,
-    nom: "Tradition Londonienne",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Moderne",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "L'authenticité londonienne alliée au confort suprême. Pack 3 pièces 100% coton.",
+      "Coffret moderne La Rose - 4 pièces en 100% coton supérieur, design contemporain.",
     images: [
-      "images/produits/tradition-londonienne-1.jpg",
-      "images/produits/tradition-londonienne-2.jpg",
-      "images/produits/tradition-londonienne-3.jpg",
-      "images/produits/tradition-londonienne-4.jpg",
-      "images/produits/tradition-londonienne-5.jpg",
+      "images/produits/photo-coffret6.jpg",
+      "images/produits/photo-coffret6.jpg",
+      "images/produits/photo-coffret6.jpg",
+      "images/produits/photo-coffret6.jpg",
+      "images/produits/photo-coffret6.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur remarquable",
-      "Origine Londres",
-      "Qualité durable",
+      "Marque : La Rose - Londres moderne",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur qualité supérieure",
+      "Style contemporain et élégant",
+      "Origine Londres garantie",
     ],
     enStock: true,
   },
   {
     id: 7,
-    nom: "Premium Chelsea",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Élégant",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Le summum du confort et de la douceur. Pack 3 pièces en coton 100% premium.",
+      "Coffret élégant La Rose - 4 pièces en coton 100% supérieur, raffinement absolu.",
     images: [
-      "images/produits/premium-chelsea-1.jpg",
-      "images/produits/premium-chelsea-2.jpg",
-      "images/produits/premium-chelsea-3.jpg",
-      "images/produits/premium-chelsea-4.jpg",
-      "images/produits/premium-chelsea-5.jpg",
+      "images/produits/photo-coffret7.jpg",
+      "images/produits/photo-coffret7.jpg",
+      "images/produits/photo-coffret7.jpg",
+      "images/produits/photo-coffret7.jpg",
+      "images/produits/photo-coffret7.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité premium",
-      "Pack 3 pièces : drap + 2 taies",
-      "Douceur peau de pêche",
-      "Tissu respirant",
-      "Londres qualité supérieure",
+      "Marque : La Rose - Raffinement Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur premium",
+      "Douceur et confort exceptionnels",
     ],
     enStock: true,
-    badge: "Premium",
   },
   {
     id: 8,
-    nom: "Contemporary Paddington",
-    categorie: "moderne",
+    nom: "La Rose - Coffret 4 Pièces Premium",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Modernité et douceur dans ce pack 3 pièces 100% coton au design épuré.",
+      "Coffret premium La Rose - 4 pièces en 100% coton supérieur, qualité exceptionnelle.",
     images: [
-      "images/produits/contemporary-paddington-1.jpg",
-      "images/produits/contemporary-paddington-2.jpg",
-      "images/produits/contemporary-paddington-3.jpg",
-      "images/produits/contemporary-paddington-4.jpg",
-      "images/produits/contemporary-paddington-5.jpg",
+      "images/produits/photo-coffret8.jpg",
+      "images/produits/photo-coffret8.jpg",
+      "images/produits/photo-coffret8.jpg",
+      "images/produits/photo-coffret8.jpg",
+      "images/produits/photo-coffret8.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur exceptionnelle",
-      "Design contemporain",
-      "Qualité Londres",
+      "Marque : La Rose - Excellence Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur de luxe",
+      "Tissu haute qualité respirant",
+      "Lavage professionnel recommandé",
     ],
     enStock: true,
   },
   {
     id: 9,
-    nom: "Royal Hyde Park",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Noble",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Prestige et confort dans ce pack 3 pièces 100% coton d'une douceur luxueuse.",
+      "Coffret noble La Rose - 4 pièces en coton 100% supérieur, noblesse et confort.",
     images: [
-      "images/produits/royal-hyde-park-1.jpg",
-      "images/produits/royal-hyde-park-2.jpg",
-      "images/produits/royal-hyde-park-3.jpg",
-      "images/produits/royal-hyde-park-4.jpg",
-      "images/produits/royal-hyde-park-5.jpg",
+      "images/produits/photo-coffret9.jpg",
+      "images/produits/photo-coffret9.jpg",
+      "images/produits/photo-coffret9.jpg",
+      "images/produits/photo-coffret9.jpg",
+      "images/produits/photo-coffret9.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité luxe",
-      "Pack 3 pièces : 1 drap + 2 taies",
-      "Douceur incomparable",
-      "Toucher peau de pêche",
-      "Origine Londres exclusive",
+      "Marque : La Rose - Noblesse Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur qualité royale",
+      "Confort de sommeil optimal",
     ],
     enStock: true,
-    badge: "Luxe",
   },
   {
     id: 10,
-    nom: "Classic Notting Hill",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Suprême",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Charme classique et douceur supérieure. Pack 3 pièces 100% coton de Londres.",
+      "Coffret suprême La Rose - 4 pièces en 100% coton supérieur, le summum du confort.",
     images: [
-      "images/produits/classic-notting-hill-1.jpg",
-      "images/produits/classic-notting-hill-2.jpg",
-      "images/produits/classic-notting-hill-3.jpg",
-      "images/produits/classic-notting-hill-4.jpg",
-      "images/produits/classic-notting-hill-5.jpg",
+      "images/produits/photo-coffret10.jpg",
+      "images/produits/photo-coffret10.jpg",
+      "images/produits/photo-coffret10.jpg",
+      "images/produits/photo-coffret10.jpg",
+      "images/produits/photo-coffret10.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur remarquable",
-      "Style classique intemporel",
+      "Marque : La Rose - Suprématie Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur exceptionnel",
+      "Douceur peau de pêche garantie",
       "Qualité Londres authentique",
     ],
     enStock: true,
   },
   {
     id: 11,
-    nom: "Modern Soho",
-    categorie: "moderne",
+    nom: "La Rose - Coffret 4 Pièces Excellence",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Design avant-gardiste et douceur extrême. Pack 3 pièces 100% coton.",
+      "Coffret excellence La Rose - 4 pièces en coton 100% supérieur, excellence garantie.",
     images: [
-      "images/produits/modern-soho-1.jpg",
-      "images/produits/modern-soho-2.jpg",
-      "images/produits/modern-soho-3.jpg",
-      "images/produits/modern-soho-4.jpg",
-      "images/produits/modern-soho-5.jpg",
+      "images/produits/photo-coffret11.jpg",
+      "images/produits/photo-coffret11.jpg",
+      "images/produits/photo-coffret11.jpg",
+      "images/produits/photo-coffret11.jpg",
+      "images/produits/photo-coffret11.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces : drap + 2 taies",
-      "Douceur exceptionnelle",
-      "Style moderne épuré",
-      "Qualité Londres",
+      "Marque : La Rose - Excellence Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur premium",
+      "Toucher luxueux incomparable",
     ],
     enStock: true,
   },
   {
     id: 12,
-    nom: "Royal Greenwich",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Prestige Royal",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Prestige royal et confort suprême. Pack 3 pièces en coton 100% de qualité supérieure.",
+      "Coffret prestige royal La Rose - 4 pièces en 100% coton supérieur de Londres.",
     images: [
-      "images/produits/royal-greenwich-1.jpg",
-      "images/produits/royal-greenwich-2.jpg",
-      "images/produits/royal-greenwich-3.jpg",
-      "images/produits/royal-greenwich-4.jpg",
-      "images/produits/royal-greenwich-5.jpg",
+      "images/produits/photo-coffret12.jpg",
+      "images/produits/photo-coffret12.jpg",
+      "images/produits/photo-coffret12.jpg",
+      "images/produits/photo-coffret12.jpg",
+      "images/produits/photo-coffret12.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité royale",
-      "Pack 3 pièces complet",
-      "Douceur peau de pêche",
-      "Luxe et élégance",
-      "Origine Londres",
+      "Marque : La Rose - Prestige Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur qualité royale",
+      "Élégance et raffinement suprêmes",
+      "Origine Londres exclusive",
     ],
     enStock: true,
-    badge: "Royal",
   },
   {
     id: 13,
-    nom: "Classic Camden",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Élégance Pure",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Authenticité londonienne et douceur incomparable. Pack 3 pièces 100% coton.",
+      "Coffret élégance pure La Rose - 4 pièces en coton 100% supérieur, pureté et confort.",
     images: [
-      "images/produits/classic-camden-1.jpg",
-      "images/produits/classic-camden-2.jpg",
-      "images/produits/classic-camden-3.jpg",
-      "images/produits/classic-camden-4.jpg",
-      "images/produits/classic-camden-5.jpg",
+      "images/produits/photo-coffret13.jpg",
+      "images/produits/photo-coffret13.jpg",
+      "images/produits/photo-coffret13.jpg",
+      "images/produits/photo-coffret13.jpg",
+      "images/produits/photo-coffret13.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces : 1 drap + 2 taies",
-      "Douceur exceptionnelle",
-      "Style classique raffiné",
-      "Qualité durable Londres",
+      "Marque : La Rose - Pureté Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur naturel",
+      "Confort respirant optimal",
     ],
     enStock: true,
   },
   {
     id: 14,
-    nom: "Modern Shoreditch",
-    categorie: "moderne",
+    nom: "La Rose - Coffret 4 Pièces Luxe Absolu",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Avant-garde et confort dans ce pack 3 pièces 100% coton au design innovant.",
+      "Coffret luxe absolu La Rose - 4 pièces en 100% coton supérieur, luxe authentique.",
     images: [
-      "images/produits/modern-shoreditch-1.jpg",
-      "images/produits/modern-shoreditch-2.jpg",
-      "images/produits/modern-shoreditch-3.jpg",
-      "images/produits/modern-shoreditch-4.jpg",
-      "images/produits/modern-shoreditch-5.jpg",
+      "images/produits/photo-coffret14.jpg",
+      "images/produits/photo-coffret14.jpg",
+      "images/produits/photo-coffret14.jpg",
+      "images/produits/photo-coffret14.jpg",
+      "images/produits/photo-coffret14.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur remarquable",
-      "Design contemporain",
-      "Qualité Londres",
+      "Marque : La Rose - Luxe Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur de luxe",
+      "Qualité exceptionnelle garantie",
+      "Douceur incomparable au toucher",
     ],
     enStock: true,
   },
   {
     id: 15,
-    nom: "Royal Regent's Park",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Royal Prestige",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Élégance princière et douceur suprême. Pack 3 pièces 100% coton de luxe.",
+      "Coffret royal prestige La Rose - 4 pièces en coton 100% supérieur, prestige royal.",
     images: [
-      "images/produits/royal-regents-park-1.jpg",
-      "images/produits/royal-regents-park-2.jpg",
-      "images/produits/royal-regents-park-3.jpg",
-      "images/produits/royal-regents-park-4.jpg",
-      "images/produits/royal-regents-park-5.jpg",
+      "images/produits/photo-coffret15.jpg",
+      "images/produits/photo-coffret15.jpg",
+      "images/produits/photo-coffret15.jpg",
+      "images/produits/photo-coffret15.jpg",
+      "images/produits/photo-coffret15.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité luxe",
-      "Pack 3 pièces : drap + 2 taies",
-      "Douceur peau de pêche",
-      "Prestige londonien",
-      "Confort optimal",
+      "Marque : La Rose - Royal Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur prestige",
+      "Élégance et confort suprêmes",
     ],
     enStock: true,
-    badge: "Luxe",
   },
   {
     id: 16,
-    nom: "Classic Bloomsbury",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Noble Élégance",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Tradition et raffinement dans ce pack 3 pièces 100% coton d'une douceur exceptionnelle.",
+      "Coffret noble élégance La Rose - 4 pièces en 100% coton supérieur, noblesse pure.",
     images: [
-      "images/produits/classic-bloomsbury-1.jpg",
-      "images/produits/classic-bloomsbury-2.jpg",
-      "images/produits/classic-bloomsbury-3.jpg",
-      "images/produits/classic-bloomsbury-4.jpg",
-      "images/produits/classic-bloomsbury-5.jpg",
+      "images/produits/photo-coffret16.jpg",
+      "images/produits/photo-coffret16.jpg",
+      "images/produits/photo-coffret16.jpg",
+      "images/produits/photo-coffret16.jpg",
+      "images/produits/photo-coffret16.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur incomparable",
-      "Style classique élégant",
-      "Qualité Londres",
+      "Marque : La Rose - Noblesse Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur noble",
+      "Qualité authentique Londres",
+      "Confort de sommeil royal",
     ],
     enStock: true,
   },
   {
     id: 17,
-    nom: "Modern Canary Wharf",
-    categorie: "moderne",
+    nom: "La Rose - Coffret 4 Pièces Prestige Or",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Design urbain et douceur premium. Pack 3 pièces 100% coton contemporain.",
+      "Coffret prestige or La Rose - 4 pièces en coton 100% supérieur, prestige doré.",
     images: [
-      "images/produits/modern-canary-wharf-1.jpg",
-      "images/produits/modern-canary-wharf-2.jpg",
-      "images/produits/modern-canary-wharf-3.jpg",
-      "images/produits/modern-canary-wharf-4.jpg",
-      "images/produits/modern-canary-wharf-5.jpg",
+      "images/produits/photo-coffret17.jpg",
+      "images/produits/photo-coffret17.jpg",
+      "images/produits/photo-coffret17.jpg",
+      "images/produits/photo-coffret17.jpg",
+      "images/produits/photo-coffret17.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces : 1 drap + 2 taies",
-      "Douceur exceptionnelle",
-      "Style moderne sophistiqué",
-      "Qualité Londres",
+      "Marque : La Rose - Prestige Or Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur doré",
+      "Luxe et élégance combinés",
     ],
     enStock: true,
   },
   {
     id: 18,
-    nom: "Royal St. James",
-    categorie: "royal",
+    nom: "La Rose - Coffret 4 Pièces Excellence Pure",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Prestige et excellence dans ce pack 3 pièces 100% coton de qualité supérieure.",
+      "Coffret excellence pure La Rose - 4 pièces en 100% coton supérieur, pure excellence.",
     images: [
-      "images/produits/royal-st-james-1.jpg",
-      "images/produits/royal-st-james-2.jpg",
-      "images/produits/royal-st-james-3.jpg",
-      "images/produits/royal-st-james-4.jpg",
-      "images/produits/royal-st-james-5.jpg",
+      "images/produits/photo-coffret18.jpg",
+      "images/produits/photo-coffret18.jpg",
+      "images/produits/photo-coffret18.jpg",
+      "images/produits/photo-coffret18.jpg",
+      "images/produits/photo-coffret18.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité royale",
-      "Pack 3 pièces complet",
-      "Douceur peau de pêche",
-      "Luxe authentique",
-      "Origine Londres exclusive",
+      "Marque : La Rose - Excellence Pure Londres",
+      "Coffret 4 pièces : 2 draps + 2 taies",
+      "100% Coton Supérieur pur",
+      "Qualité Londres incontestable",
+      "Douceur exceptionnelle garantie",
     ],
     enStock: true,
-    badge: "Royal",
   },
   {
     id: 19,
-    nom: "Classic Marylebone",
-    categorie: "classique",
+    nom: "La Rose - Coffret 4 Pièces Suprême Luxe",
+    categorie: "4pieces",
     prix: 15000,
     description:
-      "Élégance traditionnelle et douceur remarquable. Pack 3 pièces 100% coton.",
+      "Coffret suprême luxe La Rose - 4 pièces en coton 100% supérieur, luxe suprême.",
     images: [
-      "images/produits/classic-marylebone-1.jpg",
-      "images/produits/classic-marylebone-2.jpg",
-      "images/produits/classic-marylebone-3.jpg",
-      "images/produits/classic-marylebone-4.jpg",
-      "images/produits/classic-marylebone-5.jpg",
+      "images/produits/photo-coffret19.jpg",
+      "images/produits/photo-coffret19.jpg",
+      "images/produits/photo-coffret19.jpg",
+      "images/produits/photo-coffret19.jpg",
+      "images/produits/photo-coffret19.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces : drap + 2 taies",
-      "Douceur exceptionnelle",
-      "Style classique intemporel",
-      "Qualité Londres durable",
+      "Marque : La Rose - Suprême Luxe Londres",
+      "Coffret 4 pièces complet",
+      "2 draps + 2 taies d'oreiller",
+      "100% Coton Supérieur suprême",
+      "Le summum du confort londonien",
     ],
     enStock: true,
   },
+
+  // ===== 3 COFFRETS 6 PIÈCES À 20.000 FCFA =====
   {
     id: 20,
-    nom: "Modern South Bank",
-    categorie: "moderne",
-    prix: 15000,
+    nom: "La Rose - Coffret 6 Pièces Prestige",
+    categorie: "6pieces",
+    prix: 20000,
     description:
-      "Innovation et confort dans ce pack 3 pièces 100% coton au design moderne.",
+      "Coffret prestige La Rose - 6 pièces complet : 2 draps + 2 taies + 2 rideaux en 100% coton supérieur.",
     images: [
-      "images/produits/modern-south-bank-1.jpg",
-      "images/produits/modern-south-bank-2.jpg",
-      "images/produits/modern-south-bank-3.jpg",
-      "images/produits/modern-south-bank-4.jpg",
-      "images/produits/modern-south-bank-5.jpg",
+      "images/produits/photo-bigCoffret1.jpg",
+      "images/produits/photo-bigCoffret1.jpg",
+      "images/produits/photo-bigCoffret1.jpg",
+      "images/produits/photo-bigCoffret1.jpg",
+      "images/produits/photo-bigCoffret1.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur remarquable",
-      "Design contemporain",
-      "Qualité Londres",
+      "Marque : La Rose - Prestige Londres",
+      "Coffret 6 pièces complet",
+      "2 draps + 2 taies + 2 rideaux",
+      "100% Coton Supérieur qualité exceptionnelle",
+      "Ensemble complet pour chambre",
     ],
     enStock: true,
+    badge: "6 Pièces",
   },
   {
     id: 21,
-    nom: "Royal Covent Garden",
-    categorie: "royal",
-    prix: 15000,
+    nom: "La Rose - Coffret 6 Pièces Royal",
+    categorie: "6pieces",
+    prix: 20000,
     description:
-      "Raffinement artistique et douceur suprême. Pack 3 pièces 100% coton de luxe.",
+      "Coffret royal La Rose - 6 pièces luxe : 2 draps + 2 taies + 2 rideaux en coton 100% supérieur.",
     images: [
-      "images/produits/royal-covent-garden-1.jpg",
-      "images/produits/royal-covent-garden-2.jpg",
-      "images/produits/royal-covent-garden-3.jpg",
-      "images/produits/royal-covent-garden-4.jpg",
-      "images/produits/royal-covent-garden-5.jpg",
+      "images/produits/photo-bigCoffret2.jpg",
+      "images/produits/photo-bigCoffret2.jpg",
+      "images/produits/photo-bigCoffret2.jpg",
+      "images/produits/photo-bigCoffret2.jpg",
+      "images/produits/photo-bigCoffret2.jpg",
     ],
     caracteristiques: [
-      "100% Coton qualité premium",
-      "Pack 3 pièces : 1 drap + 2 taies",
-      "Douceur peau de pêche",
-      "Élégance distinctive",
-      "Origine Londres",
+      "Marque : La Rose - Royal Londres",
+      "Coffret 6 pièces : ensemble complet",
+      "2 draps + 2 taies + 2 rideaux",
+      "100% Coton Supérieur de qualité royale",
+      "Harmonie parfaite pour votre chambre",
     ],
     enStock: true,
-    badge: "Luxe",
+    badge: "6 Pièces",
   },
   {
     id: 22,
-    nom: "Classic Belgravia",
-    categorie: "classique",
-    prix: 15000,
+    nom: "La Rose - Coffret 6 Pièces Excellence",
+    categorie: "6pieces",
+    prix: 20000,
     description:
-      "Prestige classique et douceur incomparable. Pack 3 pièces 100% coton supérieur.",
+      "Coffret excellence La Rose - 6 pièces premium : 2 draps + 2 taies + 2 rideaux en 100% coton supérieur.",
     images: [
-      "images/produits/classic-belgravia-1.jpg",
-      "images/produits/classic-belgravia-2.jpg",
-      "images/produits/classic-belgravia-3.jpg",
-      "images/produits/classic-belgravia-4.jpg",
-      "images/produits/classic-belgravia-5.jpg",
+      "images/produits/photo-bigCoffret3.jpg",
+      "images/produits/photo-bigCoffret3.jpg",
+      "images/produits/photo-bigCoffret3.jpg",
+      "images/produits/photo-bigCoffret3.jpg",
+      "images/produits/photo-bigCoffret3.jpg",
     ],
     caracteristiques: [
-      "100% Coton Supérieur",
-      "Pack 3 pièces complet",
-      "Douceur exceptionnelle",
-      "Style classique prestigieux",
-      "Qualité Londres authentique",
+      "Marque : La Rose - Excellence Londres",
+      "Coffret 6 pièces complet prestige",
+      "2 draps + 2 taies + 2 rideaux",
+      "100% Coton Supérieur qualité premium",
+      "Collection complète d'exception",
     ],
     enStock: true,
+    badge: "6 Pièces",
   },
 ];
 
@@ -576,7 +575,7 @@ function afficherProduits(produitsAAfficher) {
     grid.innerHTML = `
             <div class="no-products" style="grid-column: 1/-1; text-align: center; padding: 2rem;">
                 <i class="fas fa-search" style="font-size: 3rem; color: #ccc; margin-bottom: 1rem;"></i>
-                <h3 style="color: #666;">Aucun produit trouvé</h3>
+                <h3 style="color: #666;">Aucun coffret trouvé</h3>
                 <p style="color: #999;">Essayez de modifier vos filtres de recherche</p>
             </div>
         `;
@@ -591,11 +590,17 @@ function afficherProduits(produitsAAfficher) {
 // Filtrer les produits
 function filtrerProduits() {
   const categorie = document.getElementById("category-filter").value;
+  const prix = document.getElementById("price-filter").value;
   const recherche = document.getElementById("search-input").value.toLowerCase();
 
   produitsFiltres = produits.filter((produit) => {
     // Filtre par catégorie
     if (categorie !== "all" && produit.categorie !== categorie) {
+      return false;
+    }
+
+    // Filtre par prix
+    if (prix !== "all" && produit.prix !== parseInt(prix)) {
       return false;
     }
 
@@ -615,11 +620,16 @@ function commanderWhatsApp(produitId) {
   const produit = produits.find((p) => p.id === produitId);
   if (!produit) return;
 
-  const message = `Bonjour! Je souhaite commander le produit suivant :%0A%0A*${
+  const typeCoffret =
+    produit.categorie === "4pieces"
+      ? "4 pièces (2 draps + 2 taies)"
+      : "6 pièces (2 draps + 2 taies + 2 rideaux)";
+
+  const message = `Bonjour! Je souhaite commander le coffret suivant :%0A%0A*${
     produit.nom
   }*%0A${formaterPrix(
     produit.prix
-  )}%0A%0APack 3 pièces - 100% Coton Supérieur%0A%0APouvez-vous me donner plus d'informations ?`;
+  )}%0ACoffret ${typeCoffret}%0AMarque La Rose - 100% Coton Supérieur%0A%0APouvez-vous me donner plus d'informations ?`;
 
   const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${message}`;
   window.open(urlWhatsApp, "_blank");
@@ -631,6 +641,11 @@ function voirDetails(produitId) {
   if (!produitActuel) return;
 
   indexImageActuelle = 0;
+
+  const typeCoffret =
+    produitActuel.categorie === "4pieces"
+      ? "4 pièces : 2 draps + 2 taies d'oreiller"
+      : "6 pièces : 2 draps + 2 taies + 2 rideaux";
 
   const modalHTML = `
         <div class="modal-overlay" id="modal-overlay">
@@ -685,19 +700,19 @@ function voirDetails(produitId) {
                         <div class="proof-indicators">
                             <div class="proof-item">
                                 <i class="fas fa-check-circle"></i>
-                                <span>100% Coton Supérieur - Qualité Londres</span>
+                                <span>Marque La Rose - Qualité Londres Authentique</span>
                             </div>
                             <div class="proof-item">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Pack 3 pièces complet : 1 drap + 2 taies d'oreiller</span>
+                                <span>Coffret ${typeCoffret}</span>
                             </div>
                             <div class="proof-item">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Douceur exceptionnelle - Toucher peau de pêche</span>
+                                <span>100% Coton Supérieur - Douceur Exceptionnelle</span>
                             </div>
                             <div class="proof-item">
                                 <i class="fas fa-check-circle"></i>
-                                <span>Confort optimal pour un sommeil de qualité</span>
+                                <span>Origine Londres - Qualité Garantie</span>
                             </div>
                         </div>
                         
@@ -774,6 +789,9 @@ function initialiserEvenements() {
     .getElementById("category-filter")
     .addEventListener("change", filtrerProduits);
   document
+    .getElementById("price-filter")
+    .addEventListener("change", filtrerProduits);
+  document
     .getElementById("search-input")
     .addEventListener("input", filtrerProduits);
 
@@ -824,10 +842,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initialiser les événements
   initialiserEvenements();
 
-  console.log("🛏️ Site Luxe London initialisé avec succès!");
-  console.log(`📦 ${produits.length} articles de draps chargés`);
+  console.log("🌹 Site La Rose initialisé avec succès!");
+  console.log(
+    `📦 ${produits.length} coffrets chargés (19×4pièces + 3×6pièces)`
+  );
+  console.log(`💰 Prix : 15.000 FCFA (4pièces) | 20.000 FCFA (6pièces)`);
   console.log(`💬 WhatsApp: +${numeroWhatsApp}`);
-  console.log(`🎯 Tous les articles à ${formaterPrix(15000)}`);
 });
 
 // ===== FONCTIONNALITÉS AVANCÉES =====

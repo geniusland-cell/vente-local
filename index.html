@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luxe London - Draps 100% Coton</title>
+    <title>La Rose - Draps 100% Coton de Londres</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
@@ -19,14 +19,14 @@
     <header class="header">
       <div class="container">
         <div class="logo">
-          <h1>🇬🇧 Luxe London</h1>
-          <span>Draps 100% Coton Supérieur</span>
+          <h1>🌹 La Rose</h1>
+          <span>Draps 100% Coton Supérieur - Londres</span>
         </div>
 
         <nav class="nav">
           <ul class="nav-list">
             <li><a href="#accueil" class="nav-link active">Accueil</a></li>
-            <li><a href="#produits" class="nav-link">Nos Draps</a></li>
+            <li><a href="#produits" class="nav-link">Nos Coffrets</a></li>
             <li><a href="#apropos" class="nav-link">Notre Histoire</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
@@ -41,12 +41,12 @@
     <!-- Hero Section -->
     <section id="accueil" class="hero">
       <div class="hero-content">
-        <h2>Draps 100% Coton <span>Origine Londres</span></h2>
+        <h2>Coffrets La Rose <span>Origine Londres</span></h2>
         <p>
-          Découvrez notre collection exclusive de draps d'une douceur
+          Découvrez nos coffrets exclusifs en 100% coton supérieur d'une douceur
           exceptionnelle
         </p>
-        <a href="#produits" class="btn-primary">Voir la collection</a>
+        <a href="#produits" class="btn-primary">Voir les coffrets</a>
       </div>
       <div class="hero-pattern"></div>
     </section>
@@ -54,22 +54,19 @@
     <!-- Catégories -->
     <section class="categories">
       <div class="container">
-        <h2 class="section-title">Nos Collections</h2>
+        <h2 class="section-title">Nos Coffrets</h2>
         <div class="categories-grid">
-          <div class="category-card" data-category="royal">
+          <div class="category-card" data-category="4pieces">
+            <i class="fas fa-gift"></i>
+            <h3>Coffret 4 Pièces</h3>
+            <p>2 draps + 2 taies d'oreiller</p>
+            <div class="category-price">15.000 FCFA</div>
+          </div>
+          <div class="category-card" data-category="6pieces">
             <i class="fas fa-crown"></i>
-            <h3>Collection Royale</h3>
-            <p>Élégance et raffinement</p>
-          </div>
-          <div class="category-card" data-category="classique">
-            <i class="fas fa-bed"></i>
-            <h3>Classique Londonien</h3>
-            <p>Tradition et confort</p>
-          </div>
-          <div class="category-card" data-category="moderne">
-            <i class="fas fa-star"></i>
-            <h3>Moderne Luxe</h3>
-            <p>Design contemporain</p>
+            <h3>Coffret 6 Pièces</h3>
+            <p>2 draps + 2 taies + 2 rideaux</p>
+            <div class="category-price">20.000 FCFA</div>
           </div>
         </div>
       </div>
@@ -78,24 +75,31 @@
     <!-- Produits -->
     <section id="produits" class="products">
       <div class="container">
-        <h2 class="section-title">Nos Draps</h2>
+        <h2 class="section-title">Nos Collections</h2>
 
         <!-- Filtres -->
         <div class="filters">
           <div class="filter-group">
-            <label for="category-filter">Collection:</label>
+            <label for="category-filter">Type de coffret:</label>
             <select id="category-filter">
-              <option value="all">Toutes</option>
-              <option value="royal">Royale</option>
-              <option value="classique">Classique</option>
-              <option value="moderne">Moderne</option>
+              <option value="all">Tous les coffrets</option>
+              <option value="4pieces">Coffret 4 pièces</option>
+              <option value="6pieces">Coffret 6 pièces</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="price-filter">Prix:</label>
+            <select id="price-filter">
+              <option value="all">Tous les prix</option>
+              <option value="15000">15.000 FCFA</option>
+              <option value="20000">20.000 FCFA</option>
             </select>
           </div>
           <div class="search-box">
             <input
               type="text"
               id="search-input"
-              placeholder="Rechercher un modèle..."
+              placeholder="Rechercher un coffret..."
             />
             <i class="fas fa-search"></i>
           </div>
@@ -117,7 +121,7 @@
             <div class="photo-frame">
               <img
                 src="images/photo-proprietaire.jpg"
-                alt="Propriétaire Luxe London"
+                alt="Propriétaire La Rose"
               />
               <div class="photo-overlay">
                 <h3>Votre Partenaire</h3>
@@ -128,63 +132,64 @@
 
           <!-- Texte à droite -->
           <div class="about-text">
-            <h2>Notre Engagement Qualité</h2>
+            <h2>Marque La Rose</h2>
             <p>
-              Passionné par l'excellence, je sélectionne personnellement chaque
-              lot de draps 100% coton supérieur directement de Londres pour vous
-              offrir le meilleur confort.
+              Spécialiste des coffrets draps de luxe depuis Londres. Chaque
+              coffret La Rose est sélectionné pour sa qualité exceptionnelle et
+              sa douceur incomparable.
             </p>
 
             <div class="features">
               <div class="feature">
-                <i class="fas fa-hand-holding-heart"></i>
-                <h4>Douceur Exceptionnelle</h4>
-                <p>Toucher peau de pêche</p>
+                <i class="fas fa-ribbon"></i>
+                <h4>Marque La Rose</h4>
+                <p>Qualité Londres authentique</p>
               </div>
               <div class="feature">
                 <i class="fas fa-certificate"></i>
                 <h4>100% Coton Supérieur</h4>
-                <p>Qualité Londres</p>
+                <p>Douceur exceptionnelle</p>
               </div>
               <div class="feature">
                 <i class="fas fa-gift"></i>
-                <h4>Pack 3 Pièces</h4>
-                <p>1 drap + 2 taies</p>
+                <h4>Coffrets Complets</h4>
+                <p>4 ou 6 pièces</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Logo GLF Ovale -->
-    <div class="glf-logo" title="GLF Marque Déposée">GLF</div>
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
-            <h3>Luxe London</h3>
-            <p>Draps 100% coton de qualité supérieure</p>
+            <h3>La Rose</h3>
+            <p>Coffrets draps 100% coton de qualité supérieure</p>
           </div>
           <div class="footer-section">
             <h4>Contact</h4>
             <p><i class="fab fa-whatsapp"></i> +242 06 767 8128</p>
             <p><i class="fas fa-truck"></i> Livraison Brazzaville</p>
-            <p>🛏️ Pack 3 pièces complet</p>
+            <p>🌹 Marque La Rose</p>
           </div>
           <div class="footer-section">
             <h4>Garanties</h4>
             <p>✓ 100% Coton Supérieur</p>
-            <p>✓ Douceur Exceptionnelle</p>
+            <p>✓ Marque La Rose</p>
             <p>✓ Origine Londres</p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 Luxe London. Douceur et Élégance.</p>
+          <p>&copy; 2024 La Rose. Douceur et Élégance.</p>
         </div>
       </div>
     </footer>
+
+    <!-- Logo GLF -->
+    <div class="glf-logo transparent">GLF</div>
 
     <script src="script.js"></script>
   </body>
