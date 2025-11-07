@@ -447,7 +447,7 @@ const produits = [
     id: 20,
     nom: "La Rose - Coffret 6 Pièces Prestige",
     categorie: "6pieces",
-    prix: 20000,
+    prix: 30000,
     description:
       "Coffret prestige La Rose - 6 pièces complet : 2 draps + 2 taies + 2 rideaux en 100% coton supérieur.",
     images: [
@@ -471,7 +471,7 @@ const produits = [
     id: 21,
     nom: "La Rose - Coffret 6 Pièces Royal",
     categorie: "6pieces",
-    prix: 20000,
+    prix: 30000,
     description:
       "Coffret royal La Rose - 6 pièces luxe : 2 draps + 2 taies + 2 rideaux en coton 100% supérieur.",
     images: [
@@ -495,7 +495,7 @@ const produits = [
     id: 22,
     nom: "La Rose - Coffret 6 Pièces Excellence",
     categorie: "6pieces",
-    prix: 20000,
+    prix: 30000,
     description:
       "Coffret excellence La Rose - 6 pièces premium : 2 draps + 2 taies + 2 rideaux en 100% coton supérieur.",
     images: [
